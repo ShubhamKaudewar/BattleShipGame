@@ -55,6 +55,7 @@ This project implements a simple battleship game where two players (PlayerA and 
 | SH3b    | (1, 9)      | 1    |
 | SH4b    | (7, 6)      | 3    |
 | SH5b    | (9, 9)      | 1    |
+
 ![Sample Ship Position](./sample_ship_position.png)
 
 ## Sample Response
