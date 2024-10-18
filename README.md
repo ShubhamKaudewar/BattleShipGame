@@ -32,6 +32,93 @@ This project implements a simple battleship game where two players (PlayerA and 
 ## How to Run
 
 1. Clone the repository.
-2. Run the Python script `battleship.py`:
+2. Run the unit test
+3. Run the Python script `module_1.py`:
    ```bash
-   python battleship.py
+   python -m unittest tests\module_1.py
+
+## Sample Response
+
+
+
+<details>
+  <summary>Click to expand Sample Game Response</summary>
+
+```bash
+Provide fleet details for player: 1
+Provide fleet details for player: 2
+Player1’s turn: Missile fired at (2, 9). Miss
+Player1’s turn: Missile fired at (2, 9). Miss
+Player1’s turn: Missile fired at (2, 9). Hit. Player2’s ship with id “SH3b” destroyed.
+Player1’s turn: Missile fired at (2, 9). Miss
+Player1’s turn: Missile fired at (2, 9). Miss
+Player2’s turn: Missile fired at (0, 1). Miss
+Player2’s turn: Missile fired at (0, 1). Miss
+Player2’s turn: Missile fired at (0, 1). Miss
+Player2’s turn: Missile fired at (0, 1). Miss
+Player2’s turn: Missile fired at (0, 1). Miss
+Player1’s turn: Missile fired at (7, 8). Miss
+Player1’s turn: Missile fired at (7, 8). Miss
+Player1’s turn: Missile fired at (7, 8). Hit. Player2’s ship with id “SH4b” destroyed.
+Player1’s turn: Missile fired at (7, 8). Miss
+Player2’s turn: Missile fired at (8, 4). Miss
+Player2’s turn: Missile fired at (8, 4). Miss
+Player2’s turn: Missile fired at (8, 4). Miss
+Player2’s turn: Missile fired at (8, 4). Miss
+Player2’s turn: Missile fired at (8, 4). Hit. Player1’s ship with id “SH5a” destroyed.
+Player1’s turn: Missile fired at (7, 6). Miss
+Player1’s turn: Missile fired at (7, 6). Miss
+Player1’s turn: Missile fired at (7, 6). Miss
+Player2’s turn: Missile fired at (1, 0). Miss
+Player2’s turn: Missile fired at (1, 0). Miss
+Player2’s turn: Missile fired at (1, 0). Miss
+Player2’s turn: Missile fired at (1, 0). Miss
+Player1’s turn: Missile fired at (8, 7). Miss
+Player1’s turn: Missile fired at (8, 7). Miss
+Player1’s turn: Missile fired at (8, 7). Miss
+Player2’s turn: Missile fired at (6, 4). Miss
+Player2’s turn: Missile fired at (6, 4). Miss
+Player2’s turn: Missile fired at (6, 4). Miss
+Player2’s turn: Missile fired at (6, 4). Miss
+Player1’s turn: Missile fired at (0, 5). Hit. Player2’s ship with id “SH1b” destroyed.
+Player1’s turn: Missile fired at (0, 5). Miss
+Player1’s turn: Missile fired at (0, 5). Miss
+Player2’s turn: Missile fired at (9, 0). Miss
+Player2’s turn: Missile fired at (9, 0). Miss
+Player2’s turn: Missile fired at (9, 0). Miss
+Player2’s turn: Missile fired at (9, 0). Miss
+Player1’s turn: Missile fired at (7, 9). Miss
+Player1’s turn: Missile fired at (7, 9). Miss
+Player2’s turn: Missile fired at (3, 4). Miss
+Player2’s turn: Missile fired at (3, 4). Miss
+Player2’s turn: Missile fired at (3, 4). Miss
+Player2’s turn: Missile fired at (3, 4). Miss
+Player1’s turn: Missile fired at (5, 5). Miss
+Player1’s turn: Missile fired at (5, 5). Miss
+Player2’s turn: Missile fired at (7, 3). Miss
+Player2’s turn: Missile fired at (7, 3). Miss
+Player2’s turn: Missile fired at (7, 3). Miss
+Player2’s turn: Missile fired at (7, 3). Miss
+Player1’s turn: Missile fired at (9, 9). Miss
+Player1’s turn: Missile fired at (9, 9). Hit. Player2’s ship with id “SH5b” destroyed.
+Player2’s turn: Missile fired at (6, 0). Miss
+Player2’s turn: Missile fired at (6, 0). Miss
+Player2’s turn: Missile fired at (6, 0). Miss
+Player2’s turn: Missile fired at (6, 0). Miss
+Player1’s turn: Missile fired at (6, 8). Miss
+Player2’s turn: Missile fired at (4, 1). Miss
+Player2’s turn: Missile fired at (4, 1). Hit. Player1’s ship with id “SH2a” destroyed.
+Player2’s turn: Missile fired at (4, 1). Miss
+Player2’s turn: Missile fired at (4, 1). Miss
+Player1’s turn: Missile fired at (1, 8). Miss
+Player2’s turn: Missile fired at (4, 0). Miss
+Player2’s turn: Missile fired at (4, 0). Miss
+Player2’s turn: Missile fired at (4, 0). Miss
+Player1’s turn: Missile fired at (0, 5). Miss
+Player2’s turn: Missile fired at (7, 4). Miss
+Player2’s turn: Missile fired at (7, 4). Miss
+Player2’s turn: Missile fired at (7, 4). Miss
+Player1’s turn: Missile fired at (3, 7). Hit. Player2’s ship with id “SH2b” destroyed.
+Congratulation 1 you won the war!
+```
+</details> 
