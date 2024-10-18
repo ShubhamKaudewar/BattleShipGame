@@ -37,6 +37,26 @@ This project implements a simple battleship game where two players (PlayerA and 
    ```bash
    python -m unittest tests\module_1.py
 
+## Assumptions
+1. Ship can share common border points
+2. When missile hit at (6, 6) it destroy only one ship
+
+
+## Sample Request
+| Ship ID | Coordinates | Size |
+|---------|-------------|------|
+| SH1a    | (1, 1)      | 2    |
+| SH2a    | (4, 1)      | 1    |
+| SH3a    | (5, 2)      | 1    |
+| SH4a    | (8, 1)      | 2    |
+| SH5a    | (7, 2)      | 3    |
+| SH1b    | (0, 5)      | 2    |
+| SH2b    | (2, 6)      | 2    |
+| SH3b    | (1, 9)      | 1    |
+| SH4b    | (7, 6)      | 3    |
+| SH5b    | (9, 9)      | 1    |
+![Sample Ship Position](./sample_ship_position.png)
+
 ## Sample Response
 
 
